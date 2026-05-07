@@ -1,0 +1,21 @@
+{
+  "name": "express-shopping-cart",
+  "version": "1.0.0",
+  "description": "Static shopping cart converted to Express with cookie-backed cart routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "shopping-cart",
+    "cookies"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  }
+}

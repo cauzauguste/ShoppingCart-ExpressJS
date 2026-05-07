@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Shopping Cart</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Express Shopping Cart</h1>
+        <p>Static frontend, server-managed cart cookies.</p>
+      </header>
+
+      <section>
+        <h2>Products</h2>
+        <div id="product-list" class="product-grid"></div>
+      </section>
+
+      <section class="cart-panel">
+        <div class="cart-header">
+          <h2>Your Cart</h2>
+          <button id="clear-cart" class="btn btn-clear" type="button">Clear Cart</button>
+        </div>
+        <ul id="cart-items" class="cart-items"></ul>
+        <div id="cart-summary" class="cart-summary"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
